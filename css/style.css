@@ -27,6 +27,7 @@ body {
 
 header {
   background: var(--dark);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
 }
 
 header nav .left a {
@@ -51,4 +52,38 @@ header nav .logo {
 
 .hero .left img {
   width: 400px;
+}
+
+.hero .right {
+  color: var(--pure);
+}
+
+.hero {
+  padding: 3rem 0;
+}
+
+.hero .right h6 {
+  font-size: 1.6rem;
+  color: var(--primary);
+  margin-bottom: 0.6rem;
+}
+
+.hero .right h1 {
+  font-size: 4rem;
+  font-weight: 100;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.hero .right h1 span {
+  color: var(--primary);
+}
+
+.hero .right p {
+  line-height: 1.9rem;
+  margin-bottom: 2rem;
+}
+
+.hero .right {
+  margin-top: -9rem;
 }
