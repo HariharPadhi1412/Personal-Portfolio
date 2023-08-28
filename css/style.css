@@ -48,3 +48,7 @@ header nav {
 header nav .logo {
   margin-right: 3rem;
 }
+
+.hero .left img {
+  width: 400px;
+}
